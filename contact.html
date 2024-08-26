@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
-    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contact</title>
     <style>
         a {
             text-decoration: none;
+            color: inherit;
         }
     </style>
 </head>
 <body>
-    <div class="h-screen">
+    <div class="h-screen bg-gray-700">
+
         <header class="flex bg-yellow-500 justify-between items-center shadow-xl">
             <div class="w-1/2 font-bold text-green-700 italic text-4xl mx-5 my-2 tracking-light">
                 <div class="shadowl-xl ">
@@ -45,107 +47,54 @@
             </div>
         </header>
 
-        <section>
-            <div class="mx-5  mx-auto mt-8 max-w-sm md:max-w-md text-sm md:text-xl md:text-center">
-                
-                <h1 class="text-red-700 font-extrabold text-4xl uppercase my-5">
-                    Welcome!
-                </h1>
-                <div class="flex justify-center items-center"></div>
-                <span 
-                    class="
-                    border-8 border-gray-500 py-4 
-                    rounded-full w-40 h-40 uppercase text-center 
-                    ml-3 font-bold text-3xl text-gray-500 
-                    tracking-tight leading-relaxed float-right md:hidden">
-                    Anima<br>tion
-                </span>
-                
-                <div class="leading-relaxes md:space-x-6 
-                text-sm md:text-xl 
-                font-medium  max-w-sm md:max-w-md
-                ">
-                    Summer is around the corner so,
-                    we at Krypt would love to celebrate
-                    our customers with our new
-                    Treasure Hunt. <span class="block md:m-2 mt-2">
-                        <a href="treasures.html">
-                            <button 
-                                class="bg-yellow-500 px-3 rounded-md 
-                                text-sm  text-white shadow-md scale-100 transition-transform 
-                                duration-300 hover:scale-110 active:text-red-600">
-                                    Get started
-                            </button>
-                        </a>
-                        <div 
-                        class="
-                        border-8 border-gray-500 
-                        rounded-full w-40 h-40 uppercase text-center 
-                        my-5 mx-auto text-center py-4 font-bold text-3xl text-gray-500 
-                        tracking-tight leading-relaxed hidden 
-                        md:block">
-                        Anima<br>tion
-                </div>
-                    </span>
-
-                   
-                </div>
-                
-                <div 
-                class="leading-relaxes text-sm md:text-xl 
-                font-medium max-w-sm md:max-w-md mt-2 md:text-center">
-                    Our campain aims to blend the allure of
-                    digital collectibles with real world treasures,
-                    offering exciting rewards, including cash prizes, <br class="md:hidden">
-                    gadgets, and all inclusive trip for the lucky few 
-                </div>
-                
-            </div>
-            
-        </section>
-        <section>
-            <div class="max-w-md md:max-w-none mx-auto background text-center">
-                <div class="text-orange-500 text-2xl font-bold mt-5 pt-3">
-                    BACKGROUND
-                </div>
-                <div 
-                class="font-medium font-bold text-[12px] max-w-[300px] 
-                md:max-w-md mx-auto py-5 px-1">
-                    krypt brand has always bee at the forefront of street fashion 
-                    known for its alte, bold designs and innovative approaches. 
-                    With the rising popularity of NFTs and blockchain technology, 
-                    we are taking a bold step forward by integrating these 
-                    texhnologies into our brand creating a unique and engaging customer experience
-                </div>
-            </div>
-            
-        </section>
-
-        <section>
-            <div class="mx-auto text-start max-w-sm mt-5 font-medium pb-10">
-                <div>
-                    <img src="images/ribbon.png" alt="">
-                </div>
-                <div class="text-orange-500 text-3xl font-bold">
-                    HOW TO PARTICIPATE
-                </div>
-                <div class="bg-yellow-100 mt-2 pt-2 px-2">
-                    Step 1: Users will access the krypt Brand website
-                </div>
-                <div class="bg-yellow-100 mt-2 pt-2 px-2">
-                    Step 2: They will connect their solana wallets
-                </div>
-                <div class="bg-yellow-100 mt-2 pt-2 px-2">
-                    Step 3: Users can mint one of the 100 collectibles
-                </div>
-                <div class="bg-yellow-100 mt-2 pt-2 px-2">
-                    Step 4: Once minted, they will reveal if their collectible
-                    contains a hidden treasure
-                </div>
+        <section id="contact">
+            <div
+                class="font-bold text-white text-4xl my-5 mx-auto 
+                text-center uppercase"
+            >
+                Contact
             </div>
         </section>
 
-        <footer id="footer-one" class="bg-gray-200 mt-5">
+        <section id="input-form" class="mb-12">
+            <div class="flex flex-col">
+                <form 
+                    class="flex flex-col items-center"
+                >
+                
+                    <input 
+                    type="text"
+                    placeholder="Name:"
+                    class="my-3 w-1/2 md:w-1/3 rounded-md placeholder:pl-2">
+
+                    <input 
+                    type="text"
+                    placeholder="Email:" 
+                    class="my-3 w-1/2 md:w-1/3 rounded-md placeholder:pl-2">
+
+                    <input 
+                    type="text" 
+                    placeholder="Phone Number:"
+                    class="my-3 w-1/2 md:w-1/3 rounded-md placeholder:pl-2">
+
+                    <textarea name="" id=""
+                    class="w-1/2 md:w-1/3 h-[7rem] my-3 rounded-md">
+                        
+                    </textarea>
+
+                    <button 
+                        class="bg-orange-600 text-white w-1/2 md:w-1/3 my-5 py-1
+                        rounded-md tracking-light scale-100 hover:scale-110 transition-transform 
+                        duration-300 ease-in-out">
+                        Send message
+                    </button>
+                    
+                </form>
+                
+            </div>
+        </section>
+
+        <footer id="footer-one" class="bg-white mt-5">
             <div class="flex justify-between items-center text-center mx-7 md:mx-10">
                 <div class="flex-col font-bold text-sm my-3">
                     <div class="m-3">
@@ -203,14 +152,19 @@
                 </div>
 
             </div>
+            <div class="flex justify-center items-center text-center mx-auto">
+                <a href="login.html" class=" rounded-md  my-2
+                bg-orange-500 inline w-10 hover:text-white">
+                    >>
+                </a>
             </div>
         </footer>
+
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
-
 
 
 
